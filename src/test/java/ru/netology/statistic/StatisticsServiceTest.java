@@ -17,7 +17,6 @@ class StatisticsServiceTest {
 
         assertEquals(expected, actual);
     }
-
     @Test
     void findMaxFromMin() {
         StatisticsService service = new StatisticsService();
